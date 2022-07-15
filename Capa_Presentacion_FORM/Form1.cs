@@ -107,5 +107,10 @@ namespace Capa_Presentacion_FORM
             else
                 MessageBox.Show("seleccione una fila por favor");
         }
+
+        private void DatosDataGridView_CellContentClick(object sender, DataGridViewCellEventArgs e)
+        {
+
+        }
     }
 }
